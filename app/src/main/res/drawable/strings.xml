@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Univer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dash">DashActivity</string>
+
+
+    <string name="mm1">Profile</string>
+    <string name="mm2">Log Out</string>
+    <string name="mm3">Exit</string>
+
+    <string name="facebook_app_id">562059480964248</string>
+    <string name="fb_login_protocol_scheme">fb562059480964248</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+
+</resources>

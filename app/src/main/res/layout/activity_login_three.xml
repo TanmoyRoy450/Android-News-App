@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginThreeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <customfonts.TextViewSFProDisplayBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textSize="27.7sp"
+            android:text="@string/app_name"/>
+
+
+    </LinearLayout>
+
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="All in One Application"
+            android:textSize="13.3sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"/>
+
+        <customfonts.EditTextSFProDisplayMedium
+            android:id="@+id/email_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13.3sp"
+            android:textColor="@color/black"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/transpernet"
+            android:gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@color/view_line"/>
+
+
+        <customfonts.EditTextSFProDisplayMedium
+            android:id="@+id/pass_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13.3sp"
+            android:textColor="@color/black"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/transpernet"
+            android:gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@color/view_line"/>
+
+
+    </LinearLayout>
+
+
+
+    <customfonts.TextViewSFProDisplayRegular
+        android:id="@+id/sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/no"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/light_black_rect"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="15sp"
+        android:text="Sign in"
+        android:textColor="@color/black"
+        android:textSize="15.3sp" />
+
+
+
+
+    <customfonts.TextViewSFProDisplayRegular
+        android:id="@+id/no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register"
+        android:layout_marginBottom="-75dp"
+        android:gravity="center"
+        android:text="Not Registered Yet?"
+        android:textColor="#be696969"
+        android:textSize="12sp" />
+
+    <customfonts.TextViewSFProDisplayRegular
+        android:id="@+id/forgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:textSize="15.3sp"
+        android:text="Forgot Password? Click Here"
+        android:textColor="@color/red"
+        android:background="@color/transpernet"
+        android:padding="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp"
+        android:gravity="center"/>
+
+
+    <customfonts.TextViewSFProDisplayRegular
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="15sp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/light_black_rect"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="15sp"
+        android:text="Sign up"
+        android:textColor="@color/black"
+        android:textSize="15.3sp" />
+
+
+
+</RelativeLayout>

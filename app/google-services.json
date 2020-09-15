@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "386721969589",
+    "firebase_url": "https://univer-news.firebaseio.com",
+    "project_id": "univer-news",
+    "storage_bucket": "univer-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386721969589:android:d9c98797a71f8dac",
+        "android_client_info": {
+          "package_name": "com.example.newsapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386721969589-ekb1ha77nr3etci61iddhdt4ej1nl9ck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newsapplication",
+            "certificate_hash": "56e1f8f30800433fe6a5a697a55188ddaee17077"
+          }
+        },
+        {
+          "client_id": "386721969589-je5vioeto4jr1nqa84a7smrnhl2irtbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATOXgpRwL4Jr_QP0bdvtiuM0052qkiJO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386721969589-je5vioeto4jr1nqa84a7smrnhl2irtbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
